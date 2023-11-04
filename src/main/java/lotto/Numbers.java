@@ -6,7 +6,7 @@ public class Numbers {
     public static void enterWinningNumbers() {
         String input;
         System.out.println();
-        System.out.println("당첨 번호 6개를 입력해주세요 (쉼표로 구분):");
+        System.out.println("당첨 번호를 입력해 주세요.");
         input = Console.readLine();
 
         String[] winningNumbers = input.split(",");
@@ -16,7 +16,7 @@ public class Numbers {
         }
 
         System.out.println();
-        System.out.println("보너스 번호를 입력해주세요:");
+        System.out.println("보너스 번호를 입력해 주세요.");
         input = Console.readLine();
 
         Integer bonusNumber = Integer.valueOf(input);

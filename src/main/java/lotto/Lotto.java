@@ -30,17 +30,4 @@ public class Lotto {
         return numbers;
     }
 
-    public static void main(String[] args) {
-        Lotto lotto = Lotto.generateRandomLotto();
-        List<Integer> numbers = lotto.getNumbers();
-
-        System.out.print("로또 번호: [");
-        for (int i = 0; i < numbers.size(); i++) {
-            System.out.print(numbers.get(i));
-            if (i < numbers.size() - 1) {
-                System.out.print(", ");
-            }
-        }
-        System.out.print("]");
-    }
 }
